@@ -1,0 +1,19 @@
+-- Executar teste com interface: 
+    > npm run test
+
+-- Executar teste modo headless (sim interface): 
+    > npx run test 
+    ou
+    > npx cypress run --browser chrome (chrome, firefox, edge, etc)
+
+-- Abrir interface do cypress sem nenhum projeto rodando:
+    > npx cypress open
+
+-- Executa teste e gera dashboard:
+    > npx cypress run --record --key 0aa42da7-5ca7-49de-b6ca-e1134dca50e9 (a key varia de acordo com a organização e projeto)
+
+-- Executa teste e gera relatório HTML:
+    > npx cypress run --reporter mochawesome     
+
+-- Instalar cypress de forma global (caso o projeto não identifique os comandos npm/npx)
+    > npm install cypress -g
