@@ -1,0 +1,4 @@
+#incluindo o arquivo "cypress.end.json" que contém dados sensíveis, 
+#sendo assim, quando for subir o repositório, ninguém verá essas infos (é um dado local do projeto)
+cypress.env.json
+

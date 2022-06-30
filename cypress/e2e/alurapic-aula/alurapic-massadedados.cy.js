@@ -20,8 +20,8 @@ describe('Registro de usuarios em massa no alurapic', () => {
             cy.contains('button', 'Register').click();
         })
     });
-    
-    
- 
+
+
+
 
 })
